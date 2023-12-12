@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Magic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet" />
+
+</head>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+<body>
+
+    <div id="top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"
+            style="background-color: transparent !important; z-index: 10;">
+            <a class="navbar-brand" href="#"><img
+                    src="https://framerusercontent.com/images/qmU7tgmwRQ3dXL9yHkp9GDxbrv0.svg" alt="logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navul" id="navbarSupportedContent"
+                style="justify-content:space-between;">
+                <ul class="navbar-nav mr-auto" id="mainul">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Compare
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div id="dditem" class="dropdown-item">
+                                <ul class="dropdown-item">
+                                    <li>MERCURIUS PAGE</li>
+                                    <li><a>Home</a></li>
+                                    <li><a>Product</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Pricing</a></li>
+                                    <li><a>Contact</a></li>
+                                </ul>
+                                <ul class="dropdown-item">
+                                    <li>USER PAGES</li>
+                                    <li><a>Login</a></li>
+                                    <li><a>Register</a></li>
+                                    <li><a>404 Error</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <div id="navright">
+                    <ul>
+                        <li><a id="login" href="#">Login</a></li>
+                        <li><a id="letsTalk" href="#">Let's Talk</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="grad"></div>
+        <div id="others">
+            <div id="oleft">
+                <p id="fm">Financal Management</p>
+                <h1>A simpler, smarter basic credit<span> card.</span></h1>
+                <p>Your powerful companion on the road to financial success! Explore personal budget management,
+                    investment opportunities.</p>
+                <div id="bottum">
+                    <div id="left"><button><i style="color:white; font-size:23px; margin-right:5px"
+                                class="fa-brands fa-apple"></i>App Store</button></div>
+                    <div id="middle">
+                        <img src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512"
+                            alt="cartoon1" style="height: 90%;width: 20%;margin-left:-5px;" />
+                        <img src="https://framerusercontent.com/images/ChLTRKDcxHYxLN5gf9LJPecpk8.png?scale-down-to=512"
+                            alt="cartoon2" style="height: 90%;width: 20%;margin-left:-5px;" />
+                        <img src="https://framerusercontent.com/images/8TysGUZ0I12C6YWxZUdhVfEus.png?scale-down-to=512"
+                            alt="cartoon3" style="height: 90%;width: 20%;margin-left:-5px;" />
+                    </div>
+                    <div id="right">
+                        <span">24K+</span><span>Active User</span>
+                    </div>
+                </div>
+            </div>
+            <div id="oright">
+                <img src="https://framerusercontent.com/images/1JFj3FwlaG94oqSBTQUOdyY6nHA.png?scale-down-to=1024"
+                    alt="mobile image" />
+            </div>
+        </div>
+    </div>
+    <div id="sec2">
+        <p>The platform fueling today’s high-growth revenue teams</p>
+        <div id="imgs">
+            <img src="https://framerusercontent.com/images/LqN2N2BITZWEMP8GXSNZICzhKbk.svg" alt="towa" />
+            <img src="https://framerusercontent.com/images/jUPjMXBevYSwpUv3dhfjsYThF0I.svg" alt="stamps" />
+            <img src="https://framerusercontent.com/images/XAO3MloqucqlMeB6PK8AfCJUUZY.svg" alt="rigid" />
+            <img src="https://framerusercontent.com/images/KYCV12JuE2Uy9dWtvar5bnUe58.svg" alt="manter" />
+            <img src="https://framerusercontent.com/images/IY0hIZB9qweBX62EBFvF1ZrRqI.svg" alt="explo" />
+        </div>
+        <a href="#">See Customer Reviews</a>
+    </div>
+    <div id="sec3">
+        <div id="writes" style="margin-bottom: 4%;">
+            <h1>Mercury Money Your Ultimate <span>Finance</span> Companion</h1>
+            <p>Welcome to Mercury, your all-in-one finance management solution! Take control of your financial matters
+                like never before with our powerful and user-friendly app.</p>
+        </div>
+        <div id="aco">
+            <div class="outer">
+                <div class="first" style="background-color: rgb(198, 203, 251);">
+                    <div id="in1">
+                        <i class="fa-brands fa-google"
+                            style=" font-size:30px;background-color: rgba(120, 114, 114, 0.5);border-radius: 5px; padding:10px;"></i>
+                        <div>
+                            <p>Staples</p>
+                            <p>Recipt auto matched</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec">
+                    <h3>Expense Management</h3>
+                    <p>Our Finance App Template is designed to help you manage your finances effortlessly.</p>
+                </div>
+            </div>
+            <div class="outer">
+                <div class="first" style="background-color: rgb(163, 193, 231);">
+                    <img src="https://framerusercontent.com/images/IZvwxUpn0IepfYLrrADGNp5XYjM.svg" alt="image" />
+                </div>
+                <div class="sec">
+                    <h3>Command + K</h3>
+                    <p>Our Finance App Template is designed to help you manage your finances effortlessly.</p>
+                </div>
+            </div>
+            <div class="outer">
+                <div class="first" style="background-color: rgb(163, 231, 222);"><img
+                        src="https://framerusercontent.com/images/CsKIOSpMvxO1kNsQCUiTuB2o674.svg" alt="image" /></div>
+                <div class="sec">
+                    <h3>Financial Planner</h3>
+                    <p>Our Finance App Template is designed to help you manage your finances effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sec4">
+        <div class="first">
+            <div id="left">
+                <a id="mfa">Mercurry Finance App</a>
+                <h1>Achieve Your Savings Goals with
+                    <span> Smart Tools</span>
+                </h1>
+                <p>Achieve your savings goals with the help of our smart tools. Set specific targets, create savings
+                    plans, and track your progress.</p>
+                <div style="display: flex; float: left;">
+                    <i class="fa-solid fa-check" style="padding: 5px 10px;color: blue;"></i>
+                    <p style="margin-right:15px;">Spend up to $40,000 per more</p>
+                    <i class="fa-solid fa-check" style="padding: 5px 10px;color: blue;"></i>
+                    <p style="margin-right:15px;">Competitive interest rates</p>
+                </div>
+                <br>
+                <div style="display: flex; float:left;">
+                    <a style="background-color: black; color: white">Get a Demo<i
+                            style="rotate:320deg;margin-left:5px ;" class="fa-solid fa-arrow-right"></i></a>
+                    <a>Learn More</a>
+                </div>
+            </div>
+            <div id="right" class="d-flex justify-content-center align-items-center ">
+                <div id="r" class="mx-auto ">
+                    <img src="https://framerusercontent.com/images/qOWS7ZTvyAftJzwXCsncM1NKGYI.svg" alt="img1" />
+                    <img src="https://framerusercontent.com/images/4uyLy8JUgZqV3vwG1WiZmGmMU.svg" alt="img2" />
+                </div>
+            </div>
+        </div>
+        <div class="second container d-flex justify-content-center align-items-center flex-wrap py-5">
+            <div id="left" class=" co-lg-9 py-5">
+                <div id="l">
+                    <img src="https://framerusercontent.com/images/b9mH70OTIHhBT6j26lP45nTfmak.svg" alt="img1" />
+                    <img src="https://framerusercontent.com/images/zVXPRTL6XoiX16vLo08SPJiAuw.svg" alt="img2" />
+                </div>
+            </div>
+            <div id="right" class=" co-lg-9 p-4">
+                <a id="mfa">Mercurry Finance App</a>
+                <h1>Bill and Reminder<span> Management</span>
+                </h1>
+                <p>Mercury uses a reminder system to track regular bills and payments, ensuring timely payments and
+                    avoiding late fees.</p>
+                <div style="display: flex; flex-direction: column;">
+                    <div><i class="fa-solid fa-check" style="display:inline; padding: 5px 10px;color: blue;"></i>
+                        <p style="margin-right:15px;display:inline;">No account fees on balances of $40,000 or more</p>
+                    </div>
+                    <div><i class="fa-solid fa-check" style="display:inline; padding: 5px 10px;color: blue;"></i>
+                        <p style="margin-right:15px;display:inline;">No fees on your foreign currency expenses</p>
+                    </div>
+                    <div><i class="fa-solid fa-check" style="display:inline; padding: 5px 10px;color: blue;"></i>
+                        <p style="margin-right:15px;display:inline;">Personalized Mercury credit card</p>
+                    </div>
+                    <div><i class="fa-solid fa-check" style="display:inline; padding: 5px 10px;color: blue;"></i>
+                        <p style="margin-right:15px;display:inline;">Priority service and security team access included
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container d-flex justify-content-center align-items-center flex-column card" id="sec5">
+
+        <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 s5top">
+            <a>Mercury Finance App</a>
+            <h1>Start Saving<span> Today</span></h1>
+            <p>Your powerful companion on the road to financial success! Explore personal budget management, investment
+                opportunities and more.</p>
+            <button><i style="color:white; font-size:23px; margin-right:5px" class="fa-brands fa-apple"></i>Download App
+                Store</button>
+        </div>
+        <div
+            class="s5bottom col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center align-items-cente">
+            <img src="https://framerusercontent.com/images/ATBaEX274q6Dq27ehU5AUXVg0.svg" class="img1" alt="img4" />
+            <img src="https://framerusercontent.com/images/HcPKXOc5R5Ubz2R64EFYKU9WBxw.svg" class="img2" alt="img4" />
+            <img src="https://framerusercontent.com/images/LtGuaCY7YfGVU1DNeUiUPLDaGq8.svg" class="img3" alt="img4" />
+            <img src="https://framerusercontent.com/images/xx6Z64xPAzgodZ0pBqaSnozIxDs.svg" class="img4" alt="img4" />
+            <img src="https://framerusercontent.com/images/f7zcLARCIfWfr91dob1PSohq1A.png?scale-down-to=512"
+                class="img5" />
+            <div class="mycircle d-flex justify-content-center align-items-center"></div>
+            <div class="mycircle2 d-flex justify-content-center align-items-center"></div>
+        </div>
+    </div>
+
+    <div id="sec6" class="container d-flex justify-content-center align-items-center flex-column">
+
+        <button class="rounded-pill btn border-secondary mt-4">Mercury Finance App</button>
+        <div id="hs">
+            <h2 class="display-3 py-3 fw-bold">Our Solution Empowers</h2>
+            <h1 class="grd-h1">Financial Freedom!</h1>
+        </div>
+
+    </div>
+
+    <div id="sec7" class="container py-5 d-flex justify-content-center align-items-center flex-wrap">
+
+        <div style="border-radius:30px;background-color: #eee;"
+            class=" col-xl-5 col-sm-7 col-10 mx-2 d-flex justify-content-center align-items-start flex-column p-4 my-2">
+            <img src="https://framerusercontent.com/images/WS99IXrdStZD5IzdvxWnNmSAgQ.png?scale-down-to=1024"
+                class="img-fluid">
+            <h1 class="fs-5 fw-bold">Thousands of data sources of Mercury</h1>
+            <p>Sync your calendar and track your meeting expenses. Mercury will read this and categorize your expense
+                against your budget in seconds.</p>
+        </div>
+
+        <div style="border-radius:30px;background-color: #eee;" class="col-10 col-sm-7 col-xl-5 mx-2  p-4 my-2">
+
+            <img src="https://framerusercontent.com/images/WS99IXrdStZD5IzdvxWnNmSAgQ.png?scale-down-to=1024"
+                class="img-fluid">
+            <h1 class="fs-5 fw-bold">Thousands of data sources of Mercury</h1>
+            <p>Sync your calendar and track your meeting expenses. Mercury will read this and categorize your expense
+                against your budget in seconds.</p>
+        </div>
+
+    </div>
+    <div id="sec8" class="container pb-5  d-flex justify-content-center align-items-center flex-wrap">
+        <div style="border-radius:15px"
+            class="col-xl-3 col-sm-5 my-2 col-8 mx-2 p-4 border  border-light border-2  d-flex justify-content-center align-items-center flex-column">
+            <h1 class="fs-5">Real-time Notifications</h1>
+
+            <p class="text-center">Our solution is designed to boost your savings and highlight opportunity areas.</p>
+        </div>
+        <div style="border-radius:15px"
+            class="col-xl-3 col-sm-5 my-2 mx-2 col-8 p-4 border border-light border-2  d-flex justify-content-center align-items-center flex-column">
+            <h1 class="fs-5">Spending Warnings</h1>
+
+            <p class="text-center">Our solution provides comprehensive tools to help you manage your spending.</p>
+        </div>
+        <div style="border-radius:15px"
+            class="col-xl-3 col-sm-5 my-2 mx-2 col-8 p-4 border border-light border-2  d-flex justify-content-center align-items-center flex-column">
+            <h1 class="fs-5">Designed to Boost Savings</h1>
+
+            <p class="text-center">Our solution is designed to boost your savings and highlight opportunity areas.</p>
+        </div>
+    </div>
+    <div id="sec9" class="container d-flex justify-content-center align-items-center flex-column">
+        <button class="rounded-pill btn border-secondary mt-4">Mercury Finance App</button>
+        <h2 class="display-3 py-3 fw-bold">Frequently Asked</h2>
+        <h1 class="grd-h1">Questions</h1>
+    </div>
+    <div id="sec10" class="container col-12 col-xl-5 col-lg-7 col-md-9">
+        <div class="accordion my-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        How can I add a new financial account?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        You can categorize your expenses by selecting a category for each expense transaction.
+                        Typically, predefined category lists are provided, but you can also create custom categories
+                        as needed.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        How can I categorize my expenses?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        You can categorize your expenses by selecting a category for each expense transaction.
+                        Typically, predefined category lists are provided, but you can also create custom categories
+                        as needed.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        How do I create a budget?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        You can categorize your expenses by selecting a category for each expense transaction.
+                        Typically, predefined category lists are provided, but you can also create custom categories
+                        as needed.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sec11" class="container py-5  d-flex justify-content-center align-items-center flex-column">
+        <h2 class="display-5 py-3">Need Help?</h2>
+        <p class="col-xl-6 text-center">We’re here to help! Feel free to reach out to one of our friendly team members
+            for app support or consider speaking with our team of planners.</p>
+        <button class="rounded-pill btn btn-dark px-4 fw-bold py-2 btn border-secondary mt-4">Book Demo</button>
+    </div>
+
+    <div id="sec12" style="border-radius:20px"
+        class="container mygrd2   py-5 d-flex justify-content-center align-items-center flex-wrap">
+        <div class="rounded col-xl-3 col-lg-5 col-md-6 bg-white mx-3 my-3 px-5 py-4">
+            <div class="box2">
+                <p>"This finance app template has been a game-changer for me. It's intuitive, easy to use, and helps me
+                    keep.”</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><i
+                        style="color:black; border: 1px solid rgba(0, 0, 0, 0.353); border-radius:50%;padding:5px; font-size:23px; margin-right:5px"
+                        class="fa-brands fa-apple"></i></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Fletch Skinner</span>
+                    <span style="font-size:10px">Apple CTO & Partner</span>
+                </div>
+            </div>
+        </div>
+        <div class="rounded col-xl-3 bg-white col-lg-5 col-md-6 mx-2 my-1 px-5 py-4">
+            <div class="box2">
+                <p>"Our family uses this app to manage our finances together.”</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Octavia Melvin</span>
+                    <span style="font-size:10px">Watppad & Designer</span>
+                </div>
+            </div>
+        </div>
+        <div class="rounded col-xl-3 bg-white col-lg-5 col-md-6 mx-2 my-1 px-5 py-4">
+            <div class="box2">
+                <p>"I've tried several finance apps, but this template stands out. It's highly customizable, and I love
+                    the budgeting.”</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Dylan Meringu</span>
+                    <span style="font-size:10px">Slack CEO & Partner</span>
+                </div>
+            </div>
+        </div>
+        <div class="rounded col-xl-3 bg-white col-lg-5 col-md-6 mx-2 my-1 px-5 py-4">
+            <div class="box2">
+                <p>"I'm not a financial expert, but this app template simplifies everything. I can track expenses.”</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Sue Shei</span>
+                    <span style="font-size:10px">Yelp CTO & UI Designer</span>
+                </div>
+            </div>
+        </div>
+        <div class="rounded col-xl-3 bg-white col-lg-5 col-md-6 mx-2 my-1 px-5 py-4">
+            <div class="box2">
+                <p>"The reports and charts in this template are fantastic. They give me a clear picture of where my
+                    money is going."</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Kate Smith</span>
+                    <span style="font-size:10px">Zapier & HR</span>
+                </div>
+            </div>
+        </div>
+        <div class="rounded col-xl-3 bg-white col-lg-5 col-md-6 mx-2 my-1 px-5 py-4">
+            <div class="box2">
+                <p>"As I plan for retirement, this app template has been a valuable tool.”</p>
+            </div>
+            <div class=" d-flex justify-content-center align-items-center col-xl-9  myapple  d-flex">
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <span class="col-xl-3 col-2"><img class="img-fluid rounded-circle myimg"
+                        src="https://framerusercontent.com/images/mjpixPbzIMix5MtxX2IOrVDtKA.png?scale-down-to=512" /></span>
+                <div class="col-xl-7 d-flex flex-column">
+                    <span>Alan Fresco</span>
+                    <span style="font-size:10px">Klarna & Product Designer</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sec13" class="py-5 myparent d-flex justify-content-center align-items-center">
+        <marquee class="pb-5">
+            <h1>MERCURY READY TO MOVE FASTER</h1>
+        </marquee>
+        <div id="s13" style="border-radius: 20px;" class="box py-5 d-flex flex-wrap container col-xl-9 mychild">
+            <div id="l" class="col-xl-6 col-md-6 col-12">
+                <h1 class="fw-bold fs-4 ps-5">Sign up to our newsletter !</h1>
+                <p class="ps-5">Stay in the loop with the latest updates, exclusive offers, and financial tips by
+                    signing up for our newsletter.</p>
+            </div>
+            <div id="r" class="col-xl-6 col-md-6 col-12 d-flex justify-content-center flex-column">
+                <div>
+                    <input class="my-3" placeholder="Placeholder" type="text" /><button>Get Started</button>
+                </div>
+                <div>
+                    <p>Opt out at any time by using your account dashboard. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer style="color: #f3f4f6;margin: 5px;">
+        <div class="top">
+            <div class="t">
+                <div class="left">
+                    <img src="https://framerusercontent.com/images/qmU7tgmwRQ3dXL9yHkp9GDxbrv0.svg" alt="logo" />
+                    <p style="margin:0px 0px 0px 20px;">Simple description or information about the company can be added
+                        here</p>
+                </div>
+                <div class="right">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+            <div class="b">
+                <ul>
+                    <li>FLEXI SYSTEM</li>
+                    <li>Budgeting</li>
+                    <li>Savings</li>
+                    <li>Accounts</li>
+                    <li>Secured Data<span>New</span></li>
+                </ul>
+                <ul>
+                    <li>SOLUTIONS</li>
+                    <li>Financial Planning</li>
+                    <li>Mercury API<span>New</span></li>
+                    <li>Fraud Detections</li>
+                    <li>Auto - Fix</li>
+                </ul>
+                <ul>
+                    <li>RESOURCES</li>
+                    <li>Blog</li>
+                    <li>Community</li>
+                    <li>Tutorials</li>
+                    <li>Monitoring<span>New</span></li>
+                </ul>
+                <ul>
+                    <li>COMPANY</li>
+                    <li>Careers<span>New</span></li>
+                    <li>Team</li>
+                    <li>About Us!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+            <p>©2023 Mercury; All Rights Reserved.</p>
+            <div>
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Cookies Settings</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
